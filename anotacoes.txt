@@ -1,0 +1,15 @@
+Comando para incluir no composer uma pasta que não foi baixada por ele:
+composer dump-autoload
+__________
+
+Incluir namespace da classe sql no arquivo composer.json após fazer o dump-autoload do composer
+__________
+
+Sempre declarar o namespace de onde estar a classe no vendor.
+__________
+
+Incluir htaccess Slim framework na raiz do projeto
+__________
+
+RewriteEngine On RewriteCond %{REQUEST_FILENAME} !-f RewriteRule^index.php[QSA,L]
+__________
